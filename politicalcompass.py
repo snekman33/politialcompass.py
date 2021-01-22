@@ -586,7 +586,7 @@ if xcoord >= 3 and xcoord <= 4 and ycoord <= -2 and ycoord >= -3 or xcoord >= 2 
 if xcoord >= 4 and xcoord <= 5 and ycoord <= -5 and ycoord >= -3:
     print ("You're an Anarcho Capitalist")
 
-if xcoord >= 2 and xcoord <= 5 and yc <= -5 and ycoord >= -4:
+if xcoord >= 2 and xcoord <= 5 and ycoord <= -5 and ycoord >= -4:
     print ("You're an Ultra Anarchist")
 
 print("\n")
