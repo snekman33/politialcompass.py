@@ -226,61 +226,61 @@ print("the next set of questions are to rate your economic stance.")
 # xcoord question 1
 print("\n")
 print("If economic globalisation is inevitable, it should primarily serve humanity rather than the interests of trans-national corporations: ")
-e5xcanswer()
+e5xanswer()
 xqnum += 1
 
 # xcoord question 2 
 print("\n")
 print("Taxation of the wealthy is a bad idea, society would be better off without it: ")
-a5answer()
+a5xanswer()
 xqnum += 1
 
 # xcoord question 3
 print("\n")
 print("Organisations and corporations cannot be trusted and need regulating by the government: ")
-e5answer()
+e5xanswer()
 xqnum += 1
 
 # xcoord question 4
 print("\n")
 print("It is 'human nature' to be greedy: ")
-a5answer()
+a5xanswer()
 xqnum += 1
 
 # xcoord question 5
 print("\n")
 print("Communism is an ideal economic system: ")
-e5answer()
+e5xanswer()
 xqnum += 1
 
 # xcoord question 6
 print("\n")
 print("The freer the market the freer the people: ")
-a5answer()
+a5xanswer()
 xqnum += 1
 
 # xcoord question 7
 print("\n")
 print("Economic inequality is too high in the world: ")
-e5answer()
+e5xanswer()
 xqnum += 1
 
 # xcoord question 8
 print("\n")
 print("All industry and the bank should be nationalised: ")
-e5answer()
+e5xanswer()
 xqnum += 1
 
 # xcoord question 9
 print("\n")
 print("The harder you work, the more you progress up the social ladder: ")
-a5answer()
+a5xanswer()
 xqnum += 1
 
 # xcoord question 10
 print("\n")
 print("Those with the ability to pay should have access to higher standards of medical care: ")
-a5answer()
+a5xanswer()
 xqnum += 1
 
 
