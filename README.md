@@ -1,4 +1,4 @@
-# politialcompass.py
+
 
 Originally posted to gist:
 https://gist.github.com/snekman33/688ccd558a4065521c13d0a8934ef974
