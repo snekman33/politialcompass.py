@@ -493,102 +493,48 @@ p_ball.penup()
 p_ball.goto(0, p*pqtpc)
 
 
-# Auth Left
-if xcoord >= -5 and xcoord <= -4 and ycoord <= 5 and ycoord >= 2:
-    print ("You're a Communist")
+xcoord_list1 = [-5, -5, 0, -4, -3, -5, -3, -1, -1, 1, -1, -5, -3, -2, -4, -5, -5, 0, 1, 3, 3, 3, 4, 3, 1, 0, 3, 4, 2]
+ycoord_list1 = [5, 5, 5, 4, 3, 2, 1, 3, 1, 1, -1, 0, -1, -3, -3, -3, -5, 5, 3, 2, 3, 5, 5, 0, -1, -3, -2, -5, -5]
 
-if xcoord >= -5 and xcoord <= -2 and ycoord <= 5 and ycoord >= 4:
-    print ("You're a National Communist")
+xcoord_list2 = [-4, -2, -2, -2, -1, -3, -1, 1, 1, 3, 1, -3, -1, 0, -3, -4, -2, 2, 3, 5, 4, 5, 5, 5, 3, 2, 4, 5, 5]
+ycoord_list2 = [2, 4, 3, 3, 1, 0, -1, 1, -1, -1, -3, -2, -3, -5, -4, -5, -4, 3, 1, 0, 2, 4, 2, -2, -3, -5, -3, -3, -4]
+# 29 items in total
 
-if xcoord >= 0 and xcoord <= -2 and ycoord <= 5 and ycoord >= 3:
-    print ("You're a Totalitarianist")
+statement_list = [
+    "You're a Communist",
+    "You're a National Communist",
+    "You're a Totalitarianist",
+    "You're a National Socialist",
+    "You're a Stalinist",
+    "You're a Socialist",
+    "You're a Social Democrat",
+    "You're a Authoritarianist",
+    "You're a Classical Liberal/Centrist",
+    "You're a Progressivist (Technologically) ",
+    "You're an Activist",
+    "You're a Democratic Socialist",
+    "You're a Left-Libertarian",
+    "You're a Syndicalist",
+    "You're a Anarcho-Socialist",
+    "You're an Anarcho-Communist",
+    "You're an Anarcho-Collectivist",
+    "You're a Nationalist",
+    "You're a Conservitive",
+    "You're a Ultra Capitalist",
+    "You're a Traditionalist",
+    "You're a Facist",
+    "You're a Fundamentalist",
+    "You're a Libertarian Capitalist",
+    "You're a Libertarian",
+    "You're a Mutualist",
+    "You're a Right Anarchist",
+    "You're an Anarcho Capitalist",
+    "You're an Ultra Anarchist"]
 
-if xcoord >= -4 and xcoord <= -2 and ycoord <= 4 and ycoord >= 3 or xcoord >= -4 and xcoord <= -3 and ycoord <= 4 and ycoord >= 2:
-    print ("You're a National Socialist")
-
-if xcoord >= -3 and xcoord <= -1 and ycoord <= 3 and ycoord >= 1:
-    print ("You're a Stalinist")
-
-if xcoord >= -5 and xcoord <= -3 and ycoord <= 2 and ycoord >= 0:
-    print ("You're a Socialist")
-
-
-# Center/mixed
-if xcoord >= -3 and xcoord <= -1 and ycoord <= 1 and ycoord >= -1:
-    print ("You're a Social Democrat")
-
-if xcoord >= -1 and xcoord <= 1 and ycoord <= 3 and ycoord >= 1:
-    print ("You're a Authoritarianist")
-
-if xcoord >= -1 and xcoord <= 1 and ycoord <= 1 and ycoord >= -1:
-   print ("You're a Classical Liberal/Centrist")
-
-if xcoord >= 1 and xcoord <= 3 and ycoord <= 1 and ycoord >= -1:
-    print ("You're a Progressivist (Technologically) ")
-
-if xcoord >= -1 and xcoord <= 1 and ycoord <= -1 and ycoord >= -3:
-    print ("You're an Activist")
-
-
-# Lib Left
-if xcoord >= -5 and xcoord <= -3 and ycoord <= 0 and ycoord >= -2:
-    print ("You're a Democratic Socialist")
-
-if xcoord >= -3 and xcoord <= -1 and ycoord <= -1 and ycoord >= -3:
-    print ("You're a Left-Libertarian")
-
-if xcoord >= -2 and xcoord <= 0 and ycoord <= -3 and ycoord >= -5:
-   print ("You're a Syndicalist")
-
-if xcoord >= -4 and xcoord <= -3 and ycoord <= -3 and ycoord >= -4 or xcoord >= -4 and xcoord <= -2 and ycoord <= -3 and ycoord >= -4:
-    print ("You're a Anarcho-Socialist ")
-
-if xcoord >= -5 and xcoord <= -4 and ycoord <= -3 and ycoord >= -5:
-    print ("You're an Anarcho-Communist")
-
-if xcoord >= -5 and xcoord <= -2 and ycoord <= -5 and ycoord >= -4:
-    print ("You're an Anarcho-Collectivist")
-
-
-# Auth Right
-if xcoord >= 0 and xcoord <= 2 and ycoord <= 5 and ycoord >= 3:
-    print ("You're a Nationalist")
-
-if xcoord >= 1 and xcoord <= 3 and ycoord <= 3 and ycoord >= 1:
-    print ("You're a Conservitive")
-
-if xcoord >= 3 and xcoord <= 5 and ycoord <= 2 and ycoord >= 0:
-    print ("You're a Ultra Capitalist")
-
-if xcoord >= 3 and xcoord <= 4 and ycoord <= 3 and ycoord >= 2 or xcoord >= 2 and xcoord <= 4 and ycoord <= 4 and ycoord >= 3:
-    print ("You're a Traditionalist ")
-
-if xcoord >= 3 and xcoord <= 5 and ycoord <= 5 and ycoord >= 4:
-    print ("You're an Facist")
-
-if xcoord >= 4 and xcoord <= 5 and ycoord <= 5 and ycoord >= 2:
-    print ("You're an Fundamentalist")
-
-
-# Lib Right
-if xcoord >= 3 and xcoord <= 5 and ycoord <= 0 and ycoord >= -2:
-    print ("You're a Libertarian Capitalist")
-
-if xcoord >= 1 and xcoord <= 3 and ycoord <= -1 and ycoord >= -3:
-    print ("You're a Libertarian")
-
-if xcoord >= 0 and xcoord <= 2 and ycoord <= -3 and ycoord >= -5:
-    print ("You're a Mutualist")
-
-if xcoord >= 3 and xcoord <= 4 and ycoord <= -2 and ycoord >= -3 or xcoord >= 2 and xcoord <= 4 and ycoord <= -3 and ycoord >= -4:
-    print ("You're a Right Anarchist ")
-
-if xcoord >= 4 and xcoord <= 5 and ycoord <= -5 and ycoord >= -3:
-    print ("You're an Anarcho Capitalist")
-
-if xcoord >= 2 and xcoord <= 5 and ycoord <= -5 and ycoord >= -4:
-    print ("You're an Ultra Anarchist")
-
+for i in range(29):
+    if xcoord >= xcoord_list1[i] and xcoord <= xcoord_list2[i] and ycoord <= ycoord_list1[i] and ycoord >= ycoord_list2[i]:
+        print(statement_list[i])
+        break
 print("\n")
 
 
